@@ -1,8 +1,7 @@
-# React + Vite
+En este proyecto encontraras el PI del TEAM 4 de la C4.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Codename: 4Football.
 
-Currently, two official plugins are available:
+El proyecto consiste en una aplicación web que permita a los usuarios crear y gestionar productos de Football.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Estamos arrancando el Sprint 1 UwU
