@@ -15,12 +15,14 @@ export default function Header() {
       {/* Contenedor logo del header */}
 
       {/* logo */}
-      <Link to='/'>
-        <h1>
-          <GiSoccerBall />
-          4Football
-        </h1>
-      </Link>
+      <div className='contenedor-logo'>
+        <Link to='/'>
+          <h1>
+            <GiSoccerBall />
+            4Football
+          </h1>
+        </Link>
+      </div>
 
       {/* Contenedor de los botones */}
       <div className={`nav-container ${clicked ? 'active' : ''}`}>
@@ -108,6 +110,10 @@ const HeaderWrapper = styled.header`
     @media (min-width: 768px) {
       display: none;
     }
+  }
+
+  .contenedor-logo {
+    margin-left: 2rem;
   }
 `
 const BgDiv = styled.div`
