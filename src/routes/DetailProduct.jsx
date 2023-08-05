@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const DetailProduct = () => {
   return (
-    <>
+    <section className="content">
       <h1>Botines</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio debitis
@@ -25,6 +25,6 @@ export const DetailProduct = () => {
         sit sapiente eos atque, cumque fugit possimus non tempora aliquam saepe.
       </p>
       <Link to={"/"}>Volver</Link>
-    </>
+    </section>
   );
 };
